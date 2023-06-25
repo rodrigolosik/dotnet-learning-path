@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID.Principles", "SOLID.P
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI", "DI", "{45F6787E-5955-4FF5-BB59-8350ECFD5AEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{67B9952A-FE37-4CAE-B44A-168AD3E63F95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{67B9952A-FE37-4CAE-B44A-168AD3E63F95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegates", "Delegates", "{8F3F424D-685A-4203-BA89-5A1A9DD0FC18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate.Console", "Delegate.Console\Delegate.Console.csproj", "{CDE4AD18-2CF3-44E4-BB90-7DBF914DEB91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,10 @@ Global
 		{67B9952A-FE37-4CAE-B44A-168AD3E63F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67B9952A-FE37-4CAE-B44A-168AD3E63F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67B9952A-FE37-4CAE-B44A-168AD3E63F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE4AD18-2CF3-44E4-BB90-7DBF914DEB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE4AD18-2CF3-44E4-BB90-7DBF914DEB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE4AD18-2CF3-44E4-BB90-7DBF914DEB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE4AD18-2CF3-44E4-BB90-7DBF914DEB91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +42,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{972B9A6F-0607-4490-88B4-CBD0FCE2AE6E} = {C9CE344A-065A-462C-B54D-98D6672891D2}
 		{67B9952A-FE37-4CAE-B44A-168AD3E63F95} = {45F6787E-5955-4FF5-BB59-8350ECFD5AEE}
+		{CDE4AD18-2CF3-44E4-BB90-7DBF914DEB91} = {8F3F424D-685A-4203-BA89-5A1A9DD0FC18}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E674AA5-AAE6-43C5-95A5-09AC9ACAC73A}
 	EndGlobalSection
 EndGlobal

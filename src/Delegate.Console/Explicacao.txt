@@ -1,0 +1,11 @@
+Delegates are basically a cleaner, easier function pointer.
+
+Advantages to using them in design:
+
+Can lead to easy reuse of code
+Can provide a great amount of flexibility in your designs
+Allow you to develop libraries and classes that are easily extensible, since it provides an easy way to hook in other functionality (for example, a where clause in LINQ can use a delegate [Func<T,bool>] to filter on, without having to write new code in the Where method
+Potential disadvantages:
+
+They ~can~, particularly if used naively, lead to code that is more difficult to read
+They can introduce behavior into your component that is unexpected, since 3rd party code out of your control will get called (For example, if somebody attaches a delegate to one of your events that causes an infinite loop, it can make your class look bad, even though it has nothing to do with you)
