@@ -18,31 +18,3 @@ internal class Program
         Console.ReadKey();
     }
 }
-
-
-abstract class User
-{
-    public string Username { get; set; }
-
-    public abstract void GetPrivileges();
-    public string GetName()
-    {
-        return Username;
-    }
-}
-
-class AdministrativeUser : User
-{
-    public override void GetPrivileges()
-    {
-        throw new NotImplementedException();
-    }
-}
-
-class RegularUser : User
-{
-    public override void GetPrivileges()
-    {
-        throw new NotImplementedException();
-    }
-}
