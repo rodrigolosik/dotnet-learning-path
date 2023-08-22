@@ -11,13 +11,11 @@ internal class Delegate
 
         Console.Write(addTwo(10));
         Console.Write(multiplyByTwo(10));
-
-
     }
 
     int AddTwo(int number) => number + 2;
     int MultiplyByTwo(int number) => number * 2;
 
-    int delegate DoMath(int number);
+    delegate int DoMath(int number);
 
 }

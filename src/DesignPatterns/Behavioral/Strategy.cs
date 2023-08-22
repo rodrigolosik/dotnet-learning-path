@@ -131,7 +131,6 @@ public class Caesar : HairCutStrategy
     }
 }
 
-
 public class FlatTop : HairCutStrategy
 {
     public void Cut()

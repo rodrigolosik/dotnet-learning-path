@@ -1,12 +1,9 @@
-﻿using DesignPatterns.Behavioral.Strategy;
+﻿using DesignPatterns.Creational.FactoryMethod;
 
-HairCut hairCut = new(new TexturedCrop());
-hairCut.DoHairCut();
+TransportationFactory carFactory = new CarFactory();
+ITransportation car = carFactory.CreateTransportation();
+car.Travel();
 
-hairCut.SetHairCut(new Caesar());
-hairCut.DoHairCut();
-
-hairCut.SetHairCut(new FlatTop());
-hairCut.DoHairCut();
-
-Console.ReadKey();
+TransportationFactory bikeFactory = new BikeFactory();
+ITransportation bike = bikeFactory.CreateTransportation();
+bike.Travel();
